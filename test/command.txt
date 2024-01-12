@@ -1,0 +1,5 @@
+# Run Test on a blockchain fork
+forge test --match-test testPriceFeedVersion -vvv --fork-url $SEPOLIA_RPC_URL
+
+# See how many code is tested
+forge coverage --fork-url $SEPOLIA_RPC_URL
